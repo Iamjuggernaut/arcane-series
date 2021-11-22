@@ -1,0 +1,133 @@
+.hero_wrapper {
+    background-image: url('/src/media/heroBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    box-shadow: inset 0 0 400px black;
+}
+
+.hero_content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40vh;
+    margin-left: 2rem;
+}
+
+.hero_content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px black;
+}
+
+.hero_content span:first-child {
+    background-color: darkred;
+    padding: 2px;
+}
+
+.hero_content span {
+    margin-right: 1.5rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px black;
+}
+
+.movie_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.movie_title img {
+    height: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 20px;
+    letter-spacing: 1px;
+}
+
+.buttons a:first-child {
+    border: none;
+    background: darkred;
+}
+
+.buttons a:last-child {
+    border: 2px solid #fff;
+}
+
+.buttons a:last-child:hover{
+    background-color: darkred;
+    border: none;
+    padding: 8px 22px;
+}
+
+.play_trailer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s all ease-in-out;
+}
+
+.active {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.7s all ease-in-out;
+    background-color: black;
+}
+
+.trailer {
+    max-width: 900px;
+    outline: none;
+    width: 900px;
+    height: 450px;
+}
+
+.close_icon {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    filter: invert(1);
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 420px) {
+    .hero_content {
+        margin-left: 10px;
+    }
+
+    .buttons {
+        padding: 5px 10px;
+    }
+}
