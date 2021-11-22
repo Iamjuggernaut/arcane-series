@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/arcane-series/static/css/main.c983c4f6.chunk.css",
+    "main.js": "/arcane-series/static/js/main.cd9229e2.chunk.js",
+    "main.js.map": "/arcane-series/static/js/main.cd9229e2.chunk.js.map",
+    "runtime-main.js": "/arcane-series/static/js/runtime-main.8beb035c.js",
+    "runtime-main.js.map": "/arcane-series/static/js/runtime-main.8beb035c.js.map",
+    "static/js/2.cb1b30bc.chunk.js": "/arcane-series/static/js/2.cb1b30bc.chunk.js",
+    "static/js/2.cb1b30bc.chunk.js.map": "/arcane-series/static/js/2.cb1b30bc.chunk.js.map",
+    "index.html": "/arcane-series/index.html",
+    "static/css/main.c983c4f6.chunk.css.map": "/arcane-series/static/css/main.c983c4f6.chunk.css.map",
+    "static/js/2.cb1b30bc.chunk.js.LICENSE.txt": "/arcane-series/static/js/2.cb1b30bc.chunk.js.LICENSE.txt",
+    "static/media/Cait.dbcf5d4b.jpg": "/arcane-series/static/media/Cait.dbcf5d4b.jpg",
+    "static/media/Jayce.533eb24b.jpg": "/arcane-series/static/media/Jayce.533eb24b.jpg",
+    "static/media/Jinx.a7d4b1a6.jpg": "/arcane-series/static/media/Jinx.a7d4b1a6.jpg",
+    "static/media/Mel.99aecc8f.jpg": "/arcane-series/static/media/Mel.99aecc8f.jpg",
+    "static/media/Silco.11c05386.jpg": "/arcane-series/static/media/Silco.11c05386.jpg",
+    "static/media/Vander.df238e44.jpg": "/arcane-series/static/media/Vander.df238e44.jpg",
+    "static/media/Vi.ffcde183.jpg": "/arcane-series/static/media/Vi.ffcde183.jpg",
+    "static/media/Viktor.d0dab8e3.jpg": "/arcane-series/static/media/Viktor.d0dab8e3.jpg",
+    "static/media/hero.css": "/arcane-series/static/media/heroBackground.9e0329bf.jpg",
+    "static/media/media.css": "/arcane-series/static/media/mediaBackground.82d269f8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8beb035c.js",
+    "static/js/2.cb1b30bc.chunk.js",
+    "static/css/main.c983c4f6.chunk.css",
+    "static/js/main.cd9229e2.chunk.js"
+  ]
+}
